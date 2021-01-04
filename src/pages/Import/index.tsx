@@ -36,6 +36,7 @@ const Import: React.FC = () => {
 
       history.push('/');
     } catch (err) {
+      /* eslint-disable no-alert, no-console */
       console.log(err.response.error);
     }
   }
